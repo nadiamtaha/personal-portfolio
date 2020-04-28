@@ -1,0 +1,85 @@
+.popout {
+  position: fixed;
+  width: 155px;
+  background-color: #ffffff;
+  color: #212121;
+  top: 60px;
+  right: -155px;
+  transition: 500ms transform ease-in-out;
+  z-index: 5;
+  padding-bottom: 4px; }
+  .popout p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px; }
+  .popout .nav-tabs .active {
+    border: 1px solid lightgray; }
+  .popout ul {
+    margin: 0;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin-top: -6px; }
+  .popout .nav-toggle-icon {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 1px;
+    transition: .4s;
+    margin: 6px;
+    font-size: 25px;
+    border-radius: 0;
+    background: #ffffff;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.41); }
+    .popout .nav-toggle-icon:hover {
+      transform: scale(1.1); }
+  .popout .nav-tabs > li {
+    float: none;
+    margin-bottom: -1px;
+    text-align: center;
+    display: inline-block; }
+  .popout .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 1px 10px;
+    border: 0; }
+    .popout .nav > li > a:hover, .popout .nav > li > a:focus, .popout .nav > li > a:active {
+      border: 0; }
+  .popout .toggle {
+    display: table;
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    left: -40px;
+    width: 40px;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    height: 40px;
+    background-color: white;
+    color: #222527;
+    cursor: pointer; }
+    .popout .toggle i {
+      font-size: 28px;
+      position: relative;
+      top: 2px; }
+  .popout .tab-pane {
+    text-align: center; }
+    .popout .tab-pane ul {
+      margin: 0;
+      text-align: center;
+      padding: 0; }
+      .popout .tab-pane ul li {
+        width: 25px;
+        height: 25px;
+        margin: 0 3px;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 50%;
+        transition: .4s; }
+        .popout .tab-pane ul li:hover {
+          transform: scale(1.1); }
+
+/*# sourceMappingURL=toggle.css.map */
